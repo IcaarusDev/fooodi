@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.foody"
+        applicationId "com.icaarusdev.foody"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -27,7 +27,7 @@ android {
     }
 
     buildFeatures {
-        dataBinding true
+        viewBinding true
     }
 
     compileOptions {
